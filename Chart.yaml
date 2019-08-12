@@ -1,0 +1,16 @@
+name: aladdin-requirements
+version: 0.1.0
+kubeVersion: ">= 1.15.0"
+keywords:
+  - aladdin
+  - istio
+  - prometheus
+  - monitoring
+  - kube-state-metrics
+  - node-exporters
+home: https://github.com/soda-infra/aladdin
+sources:
+  - https://github.com/soda-infra/aladdin-requirements
+maintainers:
+  - name: sung-il
+    email: j.sungil099@gmail.com

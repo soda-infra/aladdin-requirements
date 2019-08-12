@@ -1,0 +1,7 @@
+kube-sate-metrics-image:
+  repository: quay.io/coreos/kube-state-metrics
+  tag: v1.7.2
+
+node-exporter-image:
+  repository: prom/node-exporter
+  tag: latest
