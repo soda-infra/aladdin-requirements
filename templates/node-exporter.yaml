@@ -32,7 +32,7 @@ spec:
         - key: node-role.kubernetes.io/master
           effect: NoSchedule
       containers:
-      - image: "{{ .Values.node-exporter-image.repository}}:{{ .Values.node-exporter-image.tag }}"
+      - image: "{{ .Values.nodeExporterImage.repository}}:{{ .Values.nodeExporterImage.tag }}"
         name: node-exporter
         ports:
         - containerPort: 9100

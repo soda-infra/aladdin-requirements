@@ -18,7 +18,7 @@ spec:
       serviceAccountName: kube-state-metrics
       containers:
       - name: kube-state-metrics
-        image: "{{ .Values.kube-state-metrics-image.repository}}:{{ .Values.kube-state-metrics-image.tag }}"
+        image: "{{ .Values.kubeStateMetricsImage.repository }}:{{ .Values.kubeStateMetricsImage.tag }}"
         ports:
         - name: http-metrics
           containerPort: 8080
